@@ -57,6 +57,9 @@ dependencies {
 
     // CorDapp dependencies
     // Specify your cordapp's dependencies below, including dependent CorDapps
+
+
+    ////// **** This line is causing the cordapp jar to become HUGE ****
     compile project(':subproject')
 }
 
